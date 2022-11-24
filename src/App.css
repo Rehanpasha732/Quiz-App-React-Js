@@ -1,0 +1,152 @@
+:root {
+    --blue: #273c75;
+    --next_btn: #51a1f7;
+    --light_blue: #43d3be;
+    --white: white;
+    --background-color: #192a56;
+    --red:red;
+    --green:#52c41a;
+}
+* {
+    font-family: sans-serif;
+}
+.main_section {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    background-color: var(--background-color);
+    height: 110vh;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--white);
+}
+h3 {
+    font-size: 20px;
+    color: var(--white);
+}
+p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--white);
+}
+.button {
+    background-color: var(--blue);
+    color: var(--white);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#btn,#result_btn {
+    margin-top: 40px;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    background-color: var(--next_btn);
+    color: var(--white);
+    border-radius: 10px;
+}
+#btn:hover {
+    cursor: pointer;
+}
+#btn:active {
+    background-color: var(--blue);
+}
+.button:hover {
+    cursor: pointer;
+} 
+
+li {
+    list-style: none;
+}
+
+#result_none{
+    display: none;
+   
+}
+.none{
+    display: none;
+}
+.res_none{
+    display: none;
+}
+.Result{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background-color: var(--blue);
+    height: 100vh;
+}
+.result_progress{
+    width: 50%;
+    height: 50%;
+    margin: 0px auto;
+}
+
+.progres{
+    width: 30%;
+    margin: 10px auto;
+}
+.span{
+    width: 30%;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.timer{
+    font-size: 30px;
+    color: var(--white);
+}
+/* form */
+.heading{
+    color:var(--white);
+}
+.header{
+    background-color: var(--blue);
+    height: 100px;
+    margin:20px auto;
+    text-align: center;
+    width: 30%;
+}
+.quiz_p{
+    margin-top: -10px;
+}
+ .form{
+    padding-top: 10px;
+    margin:0  auto;
+    height: 100vh;
+ }
+ input{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+ }
+ input:focus{
+    outline: none;
+    border-bottom: 2px solid #192a56;
+ }
+ .inner_section{
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 100px;
+ }
+ .start_quiz{
+    margin-left: 300px;
+    background-color:var(--blue);
+    border: none;
+    padding: 10px;
+ }
+ .start_quiz:hover{
+    cursor: pointer;
+ }
+ .start_quiz:active{
+    background-color: #4161b9;
+ }
